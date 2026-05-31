@@ -1,5 +1,6 @@
 package com.example.cookapp.navigation
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
@@ -30,11 +31,11 @@ fun AppNavigation(
         }
 
         composable(route = "categoryScreen") {
-            CategoryScreen(navController = navController)
+            CategoryScreen(navController = navController, categoryId = 1)
         }
 
         composable(route = "recipeScreen") {
-            RecipeScreen(navController = navController)
+            RecipeScreen(navController = navController, recipeId = 2)
         }
     }
 }

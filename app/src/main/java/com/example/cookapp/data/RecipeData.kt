@@ -92,7 +92,7 @@ val recipeList = listOf(
         name = "Mousse de Limón Express",
         ingredients = listOf("Leche condensada", "Crema de leche", "Jugo de limón"),
         steps = listOf("Licuar la leche condensada con la crema de leche.", "Agregar el jugo de limón poco a poco mientras se licúa hasta espesar.", "Verter la mezcla en moldes individuales.", "Refrigerar por lo menos una hora antes de servir.")
-    ),
+    )
 
 
 )

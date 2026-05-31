@@ -21,6 +21,7 @@ import com.example.cookapp.data.recipeList
 fun CategoryScreen(
     navController: NavController
 ) {
+
     Column(
         modifier = Modifier
             .fillMaxSize()
